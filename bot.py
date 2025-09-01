@@ -30,8 +30,7 @@ if not TOKEN:
     sys.exit(1)
 
 bot = telebot.TeleBot(TOKEN)
-RESPONSE_MESSAGE = "Я пока что только для отправки сообщений в группу, я с тобой не буду общаться))\nМой создатель - @BorozdovNikita если есть вопросы пиши ему"
-
+RESPONSE_MESSAGE = "Я пока что только для отправки сообщений в группу, я с тобой не буду общаться))\nЕсли хочешь задать вопрос — https://pokolenie-borozdov.github.io/vopros-dnya/ \nМой создатель - @BorozdovNikita если есть вопросы пиши ему"
 logger.info("Бот инициализирован")
 logger.info(f"Токен загружен: {TOKEN[:10]}...")
 
